@@ -21,8 +21,8 @@ RANCANGAN_PATH = 'RANCANGAN_DATABASE.csv'
 
 # Email Configuration
 SENDER_EMAIL = "prasetyoreyhan0509@gmail.com"
-RECIPIENTS = ["prasetyoreyhan0509@gmail.com","Gratia.Trixe@cimbniaga.co.id",'Nancy.Sianipar2@cimbniaga.co.id']
-APP_PASSWORD = "mzgt qbqc pbxs hktu"
+RECIPIENTS = ["prasetyoreyhan0509@gmail.com"]
+APP_PASSWORD = "xxxxxxxxxx"
 def SCRAP_ROJK(url):
     try:
         timestamp = datetime.now()
