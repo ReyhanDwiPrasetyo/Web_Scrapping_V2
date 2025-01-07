@@ -465,8 +465,8 @@ t_message = f"System Berjalan dengan Baik pada {current_time} dan Jangan Lupa Ab
 
 #Push Notification
 if start_work_hours<= current_time<=end_work_hours :
-    start_time = time(18,00)
-    end_time = time(18,20)
+    start_time = time(16,00)
+    end_time = time(16,20)
     scrap_ojk = SCRAP_OJK(URL_OJK)
     scrap_bi = SCRAP_BI(URL_BI)
     scrap_lps = SCRAP_LPS(URL_LPS)

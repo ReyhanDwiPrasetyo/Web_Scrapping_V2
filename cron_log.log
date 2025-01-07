@@ -6326,3 +6326,200 @@ equests.exceptions.ConnectionError: ('Connection aborted.', OSError("(104, 'ECON
 2024-12-31 06:00:01 : Diluar jam Kerja
 2024-12-31 06:30:01 : Diluar jam Kerja
 2024-12-31 07:00:01 : Diluar jam Kerja
+2024-12-31 07:30:01 : Diluar jam Kerja
+2024-12-31 08:00:02 : Diluar jam Kerja
+2024-12-31 08:30:01 : Diluar jam Kerja
+2024-12-31 09:30:01 : Tidak ada entri baru
+2024-12-31 10:00:01 : app.py:483: SettingWithCopyWarning: 
+2024-12-31 10:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2024-12-31 10:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2024-12-31 10:00:01 : 
+2024-12-31 10:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2024-12-31 10:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2024-12-31 10:00:01 : app.py:483: SettingWithCopyWarning: 
+2024-12-31 10:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2024-12-31 10:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2024-12-31 10:00:01 : 
+2024-12-31 10:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2024-12-31 10:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2024-12-31 10:00:01 : app.py:192: SettingWithCopyWarning: 
+2024-12-31 10:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2024-12-31 10:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2024-12-31 10:00:01 : 
+2024-12-31 10:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2024-12-31 10:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT'
+2024-12-31 10:00:01 : app.py:194: SettingWithCopyWarning: 
+2024-12-31 10:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2024-12-31 10:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2024-12-31 10:00:01 : 
+2024-12-31 10:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2024-12-31 10:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2024-12-31 10:00:01 : Email Notifikasi berhasil dikirim
+2024-12-31 10:00:01 : Email Notifikasi berhasil dikirim
+2024-12-31 10:00:01 : Email Notifikasi berhasil dikirim
+2024-12-31 10:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2024-12-31 10:30:01 : Tidak ada entri baru
+2024-12-31 11:00:01 : Tidak ada entri baru
+2024-12-31 11:30:01 : Tidak ada entri baru
+2024-12-31 12:00:02 : Tidak ada entri baru
+2024-12-31 12:30:01 : Tidak ada entri baru
+2024-12-31 13:00:01 : Tidak ada entri baru
+2024-12-31 13:30:01 : Tidak ada entri baru
+2024-12-31 14:00:01 : Tidak ada entri baru
+2024-12-31 14:30:01 : Tidak ada entri baru
+2024-12-31 15:00:01 : Tidak ada entri baru
+2024-12-31 15:30:01 : Tidak ada entri baru
+2024-12-31 16:00:01 : Tidak ada entri baru
+2024-12-31 20:00:02 : Diluar jam Kerja
+2024-12-31 20:30:01 : Diluar jam Kerja
+2024-12-31 21:00:01 : Diluar jam Kerja
+2025-01-02 11:30:02 : Tidak ada entri baru
+2025-01-02 12:00:02 : Tidak ada entri baru
+2025-01-02 16:00:02 : Tidak ada entri baru
+2025-01-02 16:00:02 : Email berhasil dikirim
+2025-01-02 16:00:02 : Email berhasil dikirim
+2025-01-02 16:00:02 : Email berhasil dikirim
+2025-01-02 16:30:01 : Tidak ada entri baru
+2025-01-03 10:00:01 : Failed to Retrieve Data
+2025-01-03 10:00:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-03 10:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 10:00:01 : Tidak ada entri baru
+2025-01-03 10:30:01 : Failed to Retrieve Data
+2025-01-03 10:30:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-03 10:30:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3b185c9160>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-03 10:30:01 : Tidak ada entri baru
+2025-01-03 11:00:01 : app.py:483: SettingWithCopyWarning: 
+2025-01-03 11:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-03 11:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-03 11:00:01 : 
+2025-01-03 11:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-03 11:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-03 11:00:01 : app.py:483: SettingWithCopyWarning: 
+2025-01-03 11:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-03 11:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-03 11:00:01 : 
+2025-01-03 11:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-03 11:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-03 11:00:01 : app.py:192: SettingWithCopyWarning: 
+2025-01-03 11:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-03 11:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-03 11:00:01 : 
+2025-01-03 11:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-03 11:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT'
+2025-01-03 11:00:01 : app.py:194: SettingWithCopyWarning: 
+2025-01-03 11:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-03 11:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-03 11:00:01 : 
+2025-01-03 11:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-03 11:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-03 11:00:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f8e0382b5b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-03 11:00:01 : Email Notifikasi berhasil dikirim
+2025-01-03 11:00:01 : Email Notifikasi berhasil dikirim
+2025-01-03 11:00:01 : Email Notifikasi berhasil dikirim
+2025-01-03 11:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 11:30:01 : Tidak ada entri baru
+2025-01-03 12:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 12:00:01 : Tidak ada entri baru
+2025-01-03 12:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 12:30:01 : Tidak ada entri baru
+2025-01-03 13:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 13:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-03 13:00:01 : Tidak ada entri baru
+2025-01-03 13:30:02 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 13:30:02 : Tidak ada entri baru
+2025-01-03 14:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 14:00:01 : Tidak ada entri baru
+2025-01-03 14:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 14:30:01 : Tidak ada entri baru
+2025-01-03 15:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 15:00:01 : Tidak ada entri baru
+2025-01-03 15:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 15:30:01 : Tidak ada entri baru
+2025-01-03 16:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-03 16:00:01 : Tidak ada entri baru
+2025-01-03 16:00:01 : Email berhasil dikirim
+2025-01-03 16:00:01 : Email berhasil dikirim
+2025-01-03 16:00:01 : Email berhasil dikirim
+2025-01-03 16:00:01 : Email Notifikasi Berhasil dikirim
+2025-01-03 16:00:01 : Email Notifikasi Berhasil dikirim
+2025-01-03 16:00:01 : Email Notifikasi Berhasil dikirim
+2025-01-06 12:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 12:00:01 : Tidak ada entri baru
+2025-01-06 12:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 12:30:01 : Tidak ada entri baru
+2025-01-06 13:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 13:00:01 : Tidak ada entri baru
+2025-01-06 13:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 13:30:01 : Tidak ada entri baru
+2025-01-06 14:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 14:00:01 : Tidak ada entri baru
+2025-01-06 14:30:01 : Failed to Retrieve Data
+2025-01-06 14:30:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-06 14:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 14:30:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7efe37a737f0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2025-01-06 14:30:01 : Tidak ada entri baru
+2025-01-06 15:00:01 : app.py:483: SettingWithCopyWarning: 
+2025-01-06 15:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-06 15:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-06 15:00:01 : 
+2025-01-06 15:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-06 15:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-06 15:00:01 : app.py:483: SettingWithCopyWarning: 
+2025-01-06 15:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-06 15:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-06 15:00:01 : 
+2025-01-06 15:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-06 15:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-06 15:00:01 : app.py:192: SettingWithCopyWarning: 
+2025-01-06 15:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-06 15:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-06 15:00:01 : 
+2025-01-06 15:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-06 15:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT'
+2025-01-06 15:00:01 : app.py:194: SettingWithCopyWarning: 
+2025-01-06 15:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-06 15:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-06 15:00:01 : 
+2025-01-06 15:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-06 15:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-06 15:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 15:00:01 : Email Notifikasi berhasil dikirim
+2025-01-06 15:00:01 : Email Notifikasi berhasil dikirim
+2025-01-06 15:00:01 : Email Notifikasi berhasil dikirim
+2025-01-06 15:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 15:30:01 : Tidak ada entri baru
+2025-01-06 16:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 16:00:01 : Tidak ada entri baru
+2025-01-06 16:00:01 : Email berhasil dikirim
+2025-01-06 16:00:01 : Email berhasil dikirim
+2025-01-06 16:00:01 : Email berhasil dikirim
+2025-01-06 16:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-06 16:30:01 : Tidak ada entri baru
+2025-01-07 09:30:03 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 09:30:03 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 09:30:03 : Tidak ada entri baru
+2025-01-07 10:00:02 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 10:00:02 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 10:00:02 : Tidak ada entri baru
+2025-01-07 10:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 10:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 10:30:01 : Tidak ada entri baru
+2025-01-07 11:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 11:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 11:00:01 : Tidak ada entri baru
+2025-01-07 11:30:02 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 11:30:02 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 11:30:02 : Tidak ada entri baru
+2025-01-07 12:00:02 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 12:00:02 : Tidak ada entri baru
+2025-01-07 12:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 12:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 12:30:01 : Tidak ada entri baru
+2025-01-07 13:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 13:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 13:00:01 : Tidak ada entri baru
+2025-01-07 13:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 13:30:01 : Tidak ada entri baru
+2025-01-07 14:00:02 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-07 14:00:02 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-07 14:00:02 : Tidak ada entri baru
