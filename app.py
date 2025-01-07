@@ -22,8 +22,8 @@ RANCANGAN_PATH = 'RANCANGAN_DATABASE.csv'
 
 # Email Configuration
 SENDER_EMAIL = "prasetyoreyhan0509@gmail.com"
-RECIPIENTS = ["prasetyoreyhan0509@gmail.com","Gratia.Trixe@cimbniaga.co.id",'Nancy.Sianipar2@cimbniaga.co.id']
-APP_PASSWORD = "mzgt qbqc pbxs hktu"
+RECIPIENTS = ["prasetyoreyhan0509@gmail.com"] #Insert Recipients Email Here
+APP_PASSWORD = "XXXX" #Insert Sender Gmail APP PASSWORD
 
 def SCRAP_ROJK(url):
     """
@@ -934,8 +934,8 @@ Reyhan Dwi Prasetyo
 current_time = datetime.now().time()
 start_work_hours = time(9,00)# Start of workday (9:00 AM)
 end_work_hours = time(18,10)  # End of workday (6:10 PM)
-bot_token = "6897064541:AAGxQpMMpXm-mGfSUS7f3bYaODhtTfe1D40"  # Telegram Bot Token
-chat_id = 1965212047 # Telegram chat ID for sending status updates
+bot_token = "xxxxxx"  # Telegram Bot Token
+chat_id = 'xxxxxx' # Telegram chat ID for sending status updates
 t_message = f"System Berjalan dengan Baik pada {current_time}" # System status message
 
 # Check if the current time is within the working hours
