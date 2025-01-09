@@ -26,7 +26,7 @@ HEADERS = {
 # Email Configuration
 SENDER_EMAIL = "prasetyoreyhan0509@gmail.com"
 RECIPIENTS = ["prasetyoreyhan0509@gmail.com"] #Insert Recipients Email Here
-APP_PASSWORD = "mzgt qbqc pbxs hktu" #Insert Sender Gmail APP PASSWORD
+APP_PASSWORD = "XXXXX" #Insert Sender Gmail APP PASSWORD
 
 def SCRAP_ROJK(url):
     """
@@ -54,7 +54,7 @@ def SCRAP_ROJK(url):
         regulator = 'OJK'
         
         #Send a GET request to the provided URL 
-        response = requests.get(url)
+        response = requests.get(url,headers=HEADERS)
         if response.status_code != 200:
             print(f"Error: Failed to retrieve the OJK page. Status code: {response.status_code}")
             return pd.DataFrame()
@@ -77,7 +77,7 @@ def SCRAP_ROJK(url):
             link = 'https://www.ojk.go.id' +row.find('a')['href'] #Construct full link to the documents
             
             #Send another get requests to Extract detail information
-            response2 = requests.get(link)
+            response2 = requests.get(link,headers=HEADERS)
             if response2.status_code != 200:
                 print('Failed to retrieve Rancangan Page')
             
@@ -124,7 +124,7 @@ def SCRAP_OJK(url):
         regulator = 'OJK' #Regulator Name
         
         # Send a GET Request to the provided URL 
-        response = requests.get(url)
+        response = requests.get(url,headers=HEADERS)
         if response.status_code != 200:
                 print(f"Error: Failed to retrieve the OJK page. Status code: {response.status_code}")
                 return pd.DataFrame()
@@ -157,7 +157,7 @@ def SCRAP_OJK(url):
             judul = " ".join((judul + ' tentang '+tentang).strip().split())
             
             #Parsed to the regulation page to extract another relevant information 
-            response2 = requests.get(link)
+            response2 = requests.get(link,headers=HEADERS)
             if response2.status_code != 200:
                 print('Failed to Retrieve Data')
             
@@ -261,7 +261,7 @@ def SCRAP_SELPS(url):
         regulator = 'LPS' #regulator name
         
         #Send a GET request to the provided URl
-        response = requests.get(url)
+        response = requests.get(url,headers=HEADERS)
         if response.status_code != 200:
             print(f"Error: Failed to retrieve the LPS page. Status code: {response.status_code}")
             return pd.DataFrame()
@@ -319,7 +319,7 @@ def SCRAP_LPS(url):
         regulator = 'LPS' # Define the regulator name
         
         #Send an HTTP GET request to the specified URL
-        response = requests.get(url)
+        response = requests.get(url,headers=HEADERS)
         if response.status_code != 200:
                 print(f"Error: Failed to retrieve the LPS page. Status code: {response.status_code}")
                 return pd.DataFrame()
@@ -937,7 +937,7 @@ Reyhan Dwi Prasetyo
 # Constants for working hours and Telegram notification setup
 current_time = datetime.now().time()
 start_work_hours = time(9,00)# Start of workday (9:00 AM)
-end_work_hours = time(18,10)  # End of workday (6:10 PM)
+end_work_hours = time(18.10)  # End of workday (6:10 PM)
 
 
 # Check if the current time is within the working hours
