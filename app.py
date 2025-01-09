@@ -19,11 +19,14 @@ URL_SELPS = "https://lps.go.id/surat-edaran/"
 URL_ROJK = 'https://www.ojk.go.id/id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx'
 DATABASE_PATH = 'REGULATION_DATABASE.csv'
 RANCANGAN_PATH = 'RANCANGAN_DATABASE.csv'
+HEADERS = {
+        "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
 
 # Email Configuration
 SENDER_EMAIL = "prasetyoreyhan0509@gmail.com"
 RECIPIENTS = ["prasetyoreyhan0509@gmail.com"] #Insert Recipients Email Here
-APP_PASSWORD = "XXXX" #Insert Sender Gmail APP PASSWORD
+APP_PASSWORD = "mzgt qbqc pbxs hktu" #Insert Sender Gmail APP PASSWORD
 
 def SCRAP_ROJK(url):
     """
@@ -195,13 +198,14 @@ def SCRAP_BI(url):
     Raises:
         Exception: If any unexpected error occurs during the scraping process.
     """
+
     try:
         #Get the current timestamp for logging purposes
         timestamp = datetime.now()
         regulator = 'BI' #Regulator name
         
         #Send a GET Request to the provided URL
-        response = requests.get(url)
+        response = requests.get(url,headers=HEADERS)
         if response.status_code != 200:
                 print(f"Error: Failed to retrieve the BI page. Status code: {response.status_code}")
                 return pd.DataFrame()
@@ -934,9 +938,7 @@ Reyhan Dwi Prasetyo
 current_time = datetime.now().time()
 start_work_hours = time(9,00)# Start of workday (9:00 AM)
 end_work_hours = time(18,10)  # End of workday (6:10 PM)
-bot_token = "xxxxxx"  # Telegram Bot Token
-chat_id = 'xxxxxx' # Telegram chat ID for sending status updates
-t_message = f"System Berjalan dengan Baik pada {current_time}" # System status message
+
 
 # Check if the current time is within the working hours
 if start_work_hours <= current_time <= end_work_hours:

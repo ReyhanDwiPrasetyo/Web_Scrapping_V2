@@ -6523,3 +6523,88 @@ equests.exceptions.ConnectionError: ('Connection aborted.', OSError("(104, 'ECON
 2025-01-07 14:00:02 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
 2025-01-07 14:00:02 : Error: Failed to retrieve the LPS page. Status code: 400
 2025-01-07 14:00:02 : Tidak ada entri baru
+2025-01-09 15:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-09 15:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 15:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 15:30:01 : Tidak ada entri baru
+2025-01-09 16:00:01 : Failed to Retrieve Data
+2025-01-09 16:00:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-09 16:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-09 16:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 16:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 16:00:01 : Traceback (most recent call last):
+2025-01-09 16:00:01 :   File "app.py", line 956, in <module>
+2025-01-09 16:00:01 :     new_entries = check_for_new_entries(union)
+2025-01-09 16:00:01 :   File "app.py", line 368, in check_for_new_entries
+2025-01-09 16:00:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-09 16:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+2025-01-09 16:00:01 :     indexer = self.columns.get_loc(key)
+2025-01-09 16:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 349, in get_loc
+2025-01-09 16:00:01 :     raise KeyError(key)
+2025-01-09 16:00:01 : KeyError: 'JUDUL'
+2025-01-09 16:30:01 : Failed to Retrieve Data
+2025-01-09 16:30:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-09 16:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-09 16:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 16:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 16:30:01 : Traceback (most recent call last):
+2025-01-09 16:30:01 :   File "app.py", line 956, in <module>
+2025-01-09 16:30:01 :     new_entries = check_for_new_entries(union)
+2025-01-09 16:30:01 :   File "app.py", line 368, in check_for_new_entries
+2025-01-09 16:30:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-09 16:30:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+2025-01-09 16:30:01 :     indexer = self.columns.get_loc(key)
+2025-01-09 16:30:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 349, in get_loc
+2025-01-09 16:30:01 :     raise KeyError(key)
+2025-01-09 16:30:01 : KeyError: 'JUDUL'
+2025-01-09 17:00:01 : app.py:968: SettingWithCopyWarning: 
+2025-01-09 17:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-09 17:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-09 17:00:01 : 
+2025-01-09 17:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-09 17:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-09 17:00:01 : app.py:968: SettingWithCopyWarning: 
+2025-01-09 17:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-09 17:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-09 17:00:01 : 
+2025-01-09 17:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-09 17:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-09 17:00:01 : app.py:441: SettingWithCopyWarning: 
+2025-01-09 17:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-09 17:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-09 17:00:01 : 
+2025-01-09 17:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-09 17:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-09 17:00:01 : app.py:444: SettingWithCopyWarning: 
+2025-01-09 17:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-09 17:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-09 17:00:01 : 
+2025-01-09 17:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-09 17:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-09 17:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-09 17:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 17:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 17:00:01 : Email Notifikasi berhasil dikirim
+2025-01-09 17:00:01 : Email Notifikasi berhasil dikirim
+2025-01-09 17:00:01 : Email Notifikasi berhasil dikirim
+2025-01-09 17:00:01 : Email berhasil dikirim
+2025-01-09 17:00:01 : Email berhasil dikirim
+2025-01-09 17:00:01 : Email berhasil dikirim
+2025-01-09 17:30:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f67b83061c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-09 17:30:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-09 17:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 17:30:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 17:30:01 : Traceback (most recent call last):
+2025-01-09 17:30:01 :   File "app.py", line 956, in <module>
+2025-01-09 17:30:01 :     new_entries = check_for_new_entries(union)
+2025-01-09 17:30:01 :   File "app.py", line 368, in check_for_new_entries
+2025-01-09 17:30:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-09 17:30:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+2025-01-09 17:30:01 :     indexer = self.columns.get_loc(key)
+2025-01-09 17:30:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 349, in get_loc
+2025-01-09 17:30:01 :     raise KeyError(key)
+2025-01-09 17:30:01 : KeyError: 'JUDUL'
+2025-01-09 18:00:01 : Error in SCRAP_BI: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-09 18:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 18:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
+2025-01-09 18:00:01 : Tidak ada entri baru
