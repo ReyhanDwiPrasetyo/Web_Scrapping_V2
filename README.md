@@ -65,7 +65,7 @@ Dalam menjalankan fungsinya, script ini memerlukan pustaka dengan Bahasa Pemrogr
 ## Flowchart Script
 
 Keseluruhan Proses yang terjadi dalam Script ini dapat dilihat melalui ilustrasi berikut : 
-![Flowchart Script](https://ibb.co.com/sRybrBC)
+![Flowchart Script](https://github.com/ReyhanDwiPrasetyo/Web_Scrapping_V2/blob/main/Flowchart.png)
 
 ## Catatan Pengembangan
 
