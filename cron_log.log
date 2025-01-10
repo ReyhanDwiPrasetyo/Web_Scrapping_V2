@@ -6608,3 +6608,20 @@ equests.exceptions.ConnectionError: ('Connection aborted.', OSError("(104, 'ECON
 2025-01-09 18:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
 2025-01-09 18:00:01 : Error: Failed to retrieve the LPS page. Status code: 400
 2025-01-09 18:00:01 : Tidak ada entri baru
+2025-01-10 14:30:01 : Tidak ada entri baru
+2025-01-10 15:00:01 : Tidak ada entri baru
+2025-01-10 15:30:02 : Tidak ada entri baru
+2025-01-10 16:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fba1e370250>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-10 16:00:01 : Tidak ada entri baru
+2025-01-10 16:30:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f78253cc730>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-10 16:30:01 : Tidak ada entri baru
+2025-01-10 17:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/Pages/SEOJK-16-SEOJK.03-2024-Pelaporan-Melalui-Sistem-Pelaporan-Otoritas-Jasa-Keuangan-dan-Transparansi-Kondisi-Keuangan-bagi.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f0321e880d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-10 17:00:01 : Tidak ada entri baru
+2025-01-10 17:00:01 : Email berhasil dikirim
+2025-01-10 17:00:01 : Email berhasil dikirim
+2025-01-10 17:00:01 : Email berhasil dikirim
+2025-01-10 17:30:01 : Error: Failed to retrieve the LPS page. Status code: 500
+2025-01-10 17:30:01 : Tidak ada entri baru
+2025-01-10 18:00:01 : Tidak ada entri baru
+2025-01-10 19:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f8acc0c52e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-10 19:00:01 : Tidak ada entri baru
