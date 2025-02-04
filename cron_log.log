@@ -6625,3 +6625,514 @@ equests.exceptions.ConnectionError: ('Connection aborted.', OSError("(104, 'ECON
 2025-01-10 18:00:01 : Tidak ada entri baru
 2025-01-10 19:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f8acc0c52e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
 2025-01-10 19:00:01 : Tidak ada entri baru
+2025-01-13 16:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-13 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-13 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-13 16:00:01 : 
+2025-01-13 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-13 16:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-13 16:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-13 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-13 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-13 16:00:01 : 
+2025-01-13 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-13 16:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-13 16:00:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-13 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-13 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-13 16:00:01 : 
+2025-01-13 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-13 16:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-13 16:00:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-13 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-13 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-13 16:00:01 : 
+2025-01-13 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-13 16:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-13 16:00:01 : Email Notifikasi berhasil dikirim
+2025-01-13 16:00:01 : Email Notifikasi berhasil dikirim
+2025-01-13 16:00:01 : Email Notifikasi berhasil dikirim
+2025-01-13 16:30:01 : Tidak ada entri baru
+2025-01-13 17:00:01 : Tidak ada entri baru
+2025-01-13 17:00:01 : Email berhasil dikirim
+2025-01-13 17:00:01 : Email berhasil dikirim
+2025-01-13 17:00:01 : Email berhasil dikirim
+2025-01-14 11:00:01 : Tidak ada entri baru
+2025-01-14 11:30:01 : Tidak ada entri baru
+2025-01-14 12:00:01 : Tidak ada entri baru
+2025-01-14 12:30:01 : Tidak ada entri baru
+2025-01-14 13:00:01 : Tidak ada entri baru
+2025-01-14 13:30:01 : Tidak ada entri baru
+2025-01-14 14:00:01 : Tidak ada entri baru
+2025-01-14 14:30:01 : Tidak ada entri baru
+2025-01-14 15:00:01 : Tidak ada entri baru
+2025-01-14 17:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9bbc82c670>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-14 17:00:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9bbc82c580>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-14 17:00:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9bbc82c8b0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-14 17:00:01 : Error in SCRAP_SELPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /surat-edaran/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9bbc82c940>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-14 17:00:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9bbc82c7f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-14 17:00:01 : Traceback (most recent call last):
+2025-01-14 17:00:01 :   File "app.py", line 957, in <module>
+2025-01-14 17:00:01 :     union = pd.concat([scrap_ojk,scrap_bi,scrap_lps,scrap_selps],ignore_index=True)
+2025-01-14 17:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 372, in concat
+2025-01-14 17:00:01 :     op = _Concatenator(
+2025-01-14 17:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 452, in __init__
+2025-01-14 17:00:01 :     raise ValueError("All objects passed were None")
+2025-01-14 17:00:01 : ValueError: All objects passed were None
+2025-01-15 13:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-15 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-15 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-15 13:30:01 : 
+2025-01-15 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-15 13:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-15 13:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-15 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-15 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-15 13:30:01 : 
+2025-01-15 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-15 13:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-15 13:30:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-15 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-15 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-15 13:30:01 : 
+2025-01-15 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-15 13:30:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-15 13:30:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-15 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-15 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-15 13:30:01 : 
+2025-01-15 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-15 13:30:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-15 13:30:01 : Email Notifikasi berhasil dikirim
+2025-01-15 13:30:01 : Email Notifikasi berhasil dikirim
+2025-01-15 13:30:01 : Email Notifikasi berhasil dikirim
+2025-01-15 14:00:01 : Tidak ada entri baru
+2025-01-15 14:30:01 : Tidak ada entri baru
+2025-01-15 15:00:01 : Tidak ada entri baru
+2025-01-15 15:30:01 : Tidak ada entri baru
+2025-01-15 16:00:01 : Tidak ada entri baru
+2025-01-15 16:30:01 : Tidak ada entri baru
+2025-01-15 17:00:01 : Tidak ada entri baru
+2025-01-15 17:00:01 : Email berhasil dikirim
+2025-01-15 17:00:01 : Email berhasil dikirim
+2025-01-15 17:00:01 : Email berhasil dikirim
+2025-01-16 13:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-16 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-16 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-16 13:30:01 : 
+2025-01-16 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-16 13:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-16 13:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-16 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-16 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-16 13:30:01 : 
+2025-01-16 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-16 13:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-16 13:30:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-16 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-16 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-16 13:30:01 : 
+2025-01-16 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-16 13:30:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-16 13:30:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-16 13:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-16 13:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-16 13:30:01 : 
+2025-01-16 13:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-16 13:30:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-16 13:30:01 : Email Notifikasi berhasil dikirim
+2025-01-16 13:30:01 : Email Notifikasi berhasil dikirim
+2025-01-16 13:30:01 : Email Notifikasi berhasil dikirim
+2025-01-16 14:00:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7eff6473c9d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-16 14:00:01 : Tidak ada entri baru
+2025-01-16 14:30:01 : Tidak ada entri baru
+2025-01-16 15:00:01 : Tidak ada entri baru
+2025-01-16 15:30:01 : Tidak ada entri baru
+2025-01-16 16:00:01 : Tidak ada entri baru
+2025-01-16 16:30:01 : Tidak ada entri baru
+2025-01-16 17:00:01 : Tidak ada entri baru
+2025-01-16 17:00:01 : Email berhasil dikirim
+2025-01-16 17:00:01 : Email berhasil dikirim
+2025-01-16 17:00:01 : Email berhasil dikirim
+2025-01-17 10:00:01 : Tidak ada entri baru
+2025-01-17 10:30:01 : Tidak ada entri baru
+2025-01-17 11:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9c03026700>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 11:00:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9c02d21b80>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 11:00:01 : Traceback (most recent call last):
+2025-01-17 11:00:01 :   File "app.py", line 963, in <module>
+2025-01-17 11:00:01 :     new_rancangan = check_for_new_entries_rancangan(scrap_rojk)
+2025-01-17 11:00:01 :   File "app.py", line 394, in check_for_new_entries_rancangan
+2025-01-17 11:00:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-17 11:00:01 : TypeError: 'NoneType' object is not subscriptable
+2025-01-17 11:30:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f78215b24c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 11:30:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f78215b23d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 11:30:01 : Tidak ada entri baru
+2025-01-17 12:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f21976a80d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2025-01-17 12:00:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f21975b2d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 12:00:01 : Tidak ada entri baru
+2025-01-17 12:30:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f3ace96ee50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 12:30:01 : Tidak ada entri baru
+2025-01-17 13:00:01 : Tidak ada entri baru
+2025-01-17 13:30:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc27f6da610>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-17 13:30:01 : Tidak ada entri baru
+2025-01-17 14:00:01 : Tidak ada entri baru
+2025-01-17 14:30:01 : Tidak ada entri baru
+2025-01-17 15:00:01 : Tidak ada entri baru
+2025-01-17 15:30:02 : Tidak ada entri baru
+2025-01-17 16:00:01 : Tidak ada entri baru
+2025-01-17 16:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-17 16:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-17 16:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-17 16:30:01 : 
+2025-01-17 16:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-17 16:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-17 16:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-17 16:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-17 16:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-17 16:30:01 : 
+2025-01-17 16:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-17 16:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-17 16:30:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-17 16:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-17 16:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-17 16:30:01 : 
+2025-01-17 16:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-17 16:30:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-17 16:30:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-17 16:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-17 16:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-17 16:30:01 : 
+2025-01-17 16:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-17 16:30:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-17 16:30:01 : Email Notifikasi berhasil dikirim
+2025-01-17 16:30:01 : Email Notifikasi berhasil dikirim
+2025-01-17 16:30:01 : Email Notifikasi berhasil dikirim
+2025-01-17 17:00:01 : Error: Failed to retrieve the LPS page. Status code: 500
+2025-01-17 17:00:01 : Tidak ada entri baru
+2025-01-17 17:00:01 : Email berhasil dikirim
+2025-01-17 17:00:01 : Email berhasil dikirim
+2025-01-17 17:00:01 : Email berhasil dikirim
+2025-01-17 17:00:01 : Email Notifikasi Berhasil dikirim
+2025-01-17 17:00:01 : Email Notifikasi Berhasil dikirim
+2025-01-17 17:00:01 : Email Notifikasi Berhasil dikirim
+2025-01-20 12:30:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-20 12:30:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-20 12:30:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-20 12:30:01 : Tidak ada entri baru
+2025-01-20 13:00:02 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f78faf1a6d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-20 13:00:02 : Tidak ada entri baru
+2025-01-20 13:30:01 : Tidak ada entri baru
+2025-01-20 14:00:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-20 14:00:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-20 14:00:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-20 14:00:01 : Tidak ada entri baru
+2025-01-20 14:30:01 : Tidak ada entri baru
+2025-01-20 15:00:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f68e5ac8f40>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-20 15:00:01 : Traceback (most recent call last):
+2025-01-20 15:00:01 :   File "app.py", line 963, in <module>
+2025-01-20 15:00:01 :     new_rancangan = check_for_new_entries_rancangan(scrap_rojk)
+2025-01-20 15:00:01 :   File "app.py", line 394, in check_for_new_entries_rancangan
+2025-01-20 15:00:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-20 15:00:01 : TypeError: 'NoneType' object is not subscriptable
+2025-01-20 15:30:01 : Tidak ada entri baru
+2025-01-20 16:00:01 : Error in SCRAP_SELPS: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-20 16:00:01 : Tidak ada entri baru
+2025-01-20 16:30:01 : Tidak ada entri baru
+2025-01-20 17:00:01 : Tidak ada entri baru
+2025-01-20 17:00:01 : Email berhasil dikirim
+2025-01-20 17:00:01 : Email berhasil dikirim
+2025-01-20 17:00:01 : Email berhasil dikirim
+2025-01-21 15:30:02 : Tidak ada entri baru
+2025-01-21 16:00:02 : Tidak ada entri baru
+2025-01-21 16:30:01 : Tidak ada entri baru
+2025-01-21 17:00:02 : Error in SCRAP_OJK: ('Connection aborted.', OSError("(104, 'ECONNRESET')"))
+2025-01-21 17:00:02 : Tidak ada entri baru
+2025-01-21 17:00:02 : Email berhasil dikirim
+2025-01-21 17:00:02 : Email berhasil dikirim
+2025-01-21 17:00:02 : Email berhasil dikirim
+2025-01-23 12:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-23 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-23 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-23 12:00:01 : 
+2025-01-23 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-23 12:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-23 12:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-23 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-23 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-23 12:00:01 : 
+2025-01-23 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-23 12:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-23 12:00:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-23 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-23 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-23 12:00:01 : 
+2025-01-23 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-23 12:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-23 12:00:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-23 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-23 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-23 12:00:01 : 
+2025-01-23 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-23 12:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-23 12:00:01 : Email Notifikasi berhasil dikirim
+2025-01-23 12:00:01 : Email Notifikasi berhasil dikirim
+2025-01-23 12:00:01 : Email Notifikasi berhasil dikirim
+2025-01-23 12:30:01 : Tidak ada entri baru
+2025-01-23 13:00:02 : Tidak ada entri baru
+2025-01-23 13:30:01 : Tidak ada entri baru
+2025-01-23 14:00:01 : Error in SCRAP_SELPS: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-23 14:00:01 : Tidak ada entri baru
+2025-01-23 14:30:01 : Tidak ada entri baru
+2025-01-23 15:00:02 : Tidak ada entri baru
+2025-01-23 15:30:01 : Error in SCRAP_LPS: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-23 15:30:01 : Tidak ada entri baru
+2025-01-23 16:00:01 : Tidak ada entri baru
+2025-01-23 16:30:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/Pages/Consultative-Paper-Taksonomi-untuk-Keuangan-Berkelanjutan-Indonesia-(TKBI)-Versi-2.aspx (Caused by SSLError(SSLError("bad handshake: SysCallError(104, 'ECONNRESET')")))
+2025-01-23 16:30:01 : Traceback (most recent call last):
+2025-01-23 16:30:01 :   File "app.py", line 963, in <module>
+2025-01-23 16:30:01 :     new_rancangan = check_for_new_entries_rancangan(scrap_rojk)
+2025-01-23 16:30:01 :   File "app.py", line 394, in check_for_new_entries_rancangan
+2025-01-23 16:30:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-23 16:30:01 : TypeError: 'NoneType' object is not subscriptable
+2025-01-23 17:00:01 : Failed to Retrieve Data
+2025-01-23 17:00:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-23 17:00:01 : Tidak ada entri baru
+2025-01-23 17:00:01 : Email berhasil dikirim
+2025-01-23 17:00:01 : Email berhasil dikirim
+2025-01-23 17:00:01 : Email berhasil dikirim
+2025-01-28 12:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-28 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-28 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-28 12:00:01 : 
+2025-01-28 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-28 12:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-28 12:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-28 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-28 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-28 12:00:01 : 
+2025-01-28 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-28 12:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-28 12:00:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-28 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-28 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-28 12:00:01 : 
+2025-01-28 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-28 12:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-28 12:00:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-28 12:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-28 12:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-28 12:00:01 : 
+2025-01-28 12:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-28 12:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-28 12:00:01 : Email Notifikasi berhasil dikirim
+2025-01-28 12:00:01 : Email Notifikasi berhasil dikirim
+2025-01-28 12:00:01 : Email Notifikasi berhasil dikirim
+2025-01-28 15:00:01 : Tidak ada entri baru
+2025-01-28 15:30:01 : Tidak ada entri baru
+2025-01-28 16:00:01 : Tidak ada entri baru
+2025-01-28 16:30:01 : Error in SCRAP_LPS: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-28 16:30:01 : Error in SCRAP_SELPS: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-01-28 16:30:01 : Tidak ada entri baru
+2025-01-28 17:00:01 : Tidak ada entri baru
+2025-01-28 17:00:01 : Email berhasil dikirim
+2025-01-28 17:00:01 : Email berhasil dikirim
+2025-01-28 17:00:01 : Email berhasil dikirim
+2025-01-29 16:00:20 : Tidak ada entri baru
+2025-01-29 16:30:01 : Tidak ada entri baru
+2025-01-29 17:00:01 : Tidak ada entri baru
+2025-01-29 17:00:01 : Email berhasil dikirim
+2025-01-29 17:00:01 : Email berhasil dikirim
+2025-01-29 17:00:01 : Email berhasil dikirim
+2025-01-30 09:30:01 : Tidak ada entri baru
+2025-01-30 10:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0a6980580>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-30 10:00:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0a6980490>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-30 10:00:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0a69807c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-30 10:00:01 : Error in SCRAP_SELPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /surat-edaran/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0a6980850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-30 10:00:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0a6980700>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-30 10:00:01 : Traceback (most recent call last):
+2025-01-30 10:00:01 :   File "app.py", line 957, in <module>
+2025-01-30 10:00:01 :     union = pd.concat([scrap_ojk,scrap_bi,scrap_lps,scrap_selps],ignore_index=True)
+2025-01-30 10:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 372, in concat
+2025-01-30 10:00:01 :     op = _Concatenator(
+2025-01-30 10:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 452, in __init__
+2025-01-30 10:00:01 :     raise ValueError("All objects passed were None")
+2025-01-30 10:00:01 : ValueError: All objects passed were None
+2025-01-30 10:30:01 : Tidak ada entri baru
+2025-01-30 11:00:01 : Tidak ada entri baru
+2025-01-30 11:30:01 : Tidak ada entri baru
+2025-01-30 12:00:01 : Tidak ada entri baru
+2025-01-30 12:30:01 : Tidak ada entri baru
+2025-01-30 13:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fd6663ad550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-30 13:00:01 : Tidak ada entri baru
+2025-01-30 13:30:01 : Tidak ada entri baru
+2025-01-30 14:00:01 : Error in SCRAP_OJK: ('Connection broken: OSError("(104, \'ECONNRESET\')")', OSError("(104, 'ECONNRESET')"))
+2025-01-30 14:00:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by SSLError(SSLError("bad handshake: SysCallError(104, 'ECONNRESET')")))
+2025-01-30 14:00:01 : Traceback (most recent call last):
+2025-01-30 14:00:01 :   File "app.py", line 963, in <module>
+2025-01-30 14:00:01 :     new_rancangan = check_for_new_entries_rancangan(scrap_rojk)
+2025-01-30 14:00:01 :   File "app.py", line 394, in check_for_new_entries_rancangan
+2025-01-30 14:00:01 :     new_entries = df[~df['JUDUL'].isin(database['JUDUL'])]
+2025-01-30 14:00:01 : TypeError: 'NoneType' object is not subscriptable
+2025-01-30 16:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-30 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-30 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-30 16:00:01 : 
+2025-01-30 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-30 16:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-30 16:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-30 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-30 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-30 16:00:01 : 
+2025-01-30 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-30 16:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-30 16:00:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-30 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-30 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-30 16:00:01 : 
+2025-01-30 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-30 16:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-30 16:00:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-30 16:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-30 16:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-30 16:00:01 : 
+2025-01-30 16:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-30 16:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-30 16:00:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-30 16:00:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-30 16:00:01 : Notifikasi Rancangan Regulasi Baru berhasil dikirim
+2025-01-30 16:00:01 : Email Notifikasi berhasil dikirim
+2025-01-30 16:00:01 : Email Notifikasi berhasil dikirim
+2025-01-30 16:00:01 : Email Notifikasi berhasil dikirim
+2025-01-30 16:30:01 : Tidak ada entri baru
+2025-01-30 17:00:01 : Tidak ada entri baru
+2025-01-30 17:00:01 : Email berhasil dikirim
+2025-01-30 17:00:01 : Email berhasil dikirim
+2025-01-30 17:00:01 : Email berhasil dikirim
+2025-01-31 12:00:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbdea381f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:00:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbdea380d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:00:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbdea38430>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:00:01 : Error in SCRAP_SELPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /surat-edaran/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbdea384c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:00:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ffbdea382e0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:00:01 : Traceback (most recent call last):
+2025-01-31 12:00:01 :   File "app.py", line 957, in <module>
+2025-01-31 12:00:01 :     union = pd.concat([scrap_ojk,scrap_bi,scrap_lps,scrap_selps],ignore_index=True)
+2025-01-31 12:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 372, in concat
+2025-01-31 12:00:01 :     op = _Concatenator(
+2025-01-31 12:00:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 452, in __init__
+2025-01-31 12:00:01 :     raise ValueError("All objects passed were None")
+2025-01-31 12:00:01 : ValueError: All objects passed were None
+2025-01-31 12:30:01 : Error in SCRAP_OJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/Regulasi/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f10651fc130>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:30:01 : Error in SCRAP_BI: HTTPSConnectionPool(host='www.bi.go.id', port=443): Max retries exceeded with url: /id/publikasi/peraturan/Default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f10651fc340>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:30:01 : Error in SCRAP_LPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /plps/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f10651fc3d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:30:01 : Error in SCRAP_SELPS: HTTPSConnectionPool(host='lps.go.id', port=443): Max retries exceeded with url: /surat-edaran/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f10651fc100>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:30:01 : Error in SCRAP_ROJK: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with url: /id/regulasi/otoritas-jasa-keuangan/rancangan-regulasi/default.aspx (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f10651fc130>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+2025-01-31 12:30:01 : Traceback (most recent call last):
+2025-01-31 12:30:01 :   File "app.py", line 957, in <module>
+2025-01-31 12:30:01 :     union = pd.concat([scrap_ojk,scrap_bi,scrap_lps,scrap_selps],ignore_index=True)
+2025-01-31 12:30:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 372, in concat
+2025-01-31 12:30:01 :     op = _Concatenator(
+2025-01-31 12:30:01 :   File "/home/reyhan/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 452, in __init__
+2025-01-31 12:30:01 :     raise ValueError("All objects passed were None")
+2025-01-31 12:30:01 : ValueError: All objects passed were None
+2025-01-31 13:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-31 13:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 13:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 13:00:01 : 
+2025-01-31 13:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 13:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-31 13:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-31 13:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 13:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 13:00:01 : 
+2025-01-31 13:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 13:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-31 13:00:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-31 13:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 13:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 13:00:01 : 
+2025-01-31 13:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 13:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-31 13:00:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-31 13:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 13:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 13:00:01 : 
+2025-01-31 13:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 13:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-31 13:00:01 : Failed to Retrieve Data
+2025-01-31 13:00:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-31 13:00:01 : Email Notifikasi berhasil dikirim
+2025-01-31 13:00:01 : Email Notifikasi berhasil dikirim
+2025-01-31 13:00:01 : Email Notifikasi berhasil dikirim
+2025-01-31 13:30:01 : Failed to Retrieve Data
+2025-01-31 13:30:01 : Error in SCRAP_OJK: 'NoneType' object has no attribute 'text'
+2025-01-31 13:30:01 : Tidak ada entri baru
+2025-01-31 14:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-31 14:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 14:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 14:00:01 : 
+2025-01-31 14:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 14:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-31 14:00:01 : app.py:972: SettingWithCopyWarning: 
+2025-01-31 14:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 14:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 14:00:01 : 
+2025-01-31 14:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 14:00:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-01-31 14:00:01 : app.py:445: SettingWithCopyWarning: 
+2025-01-31 14:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 14:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 14:00:01 : 
+2025-01-31 14:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 14:00:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-01-31 14:00:01 : app.py:448: SettingWithCopyWarning: 
+2025-01-31 14:00:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-01-31 14:00:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-01-31 14:00:01 : 
+2025-01-31 14:00:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-01-31 14:00:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-01-31 14:00:01 : Email Notifikasi berhasil dikirim
+2025-01-31 14:00:01 : Email Notifikasi berhasil dikirim
+2025-01-31 14:00:01 : Email Notifikasi berhasil dikirim
+2025-01-31 14:30:01 : Tidak ada entri baru
+2025-01-31 15:00:01 : Tidak ada entri baru
+2025-01-31 15:30:01 : Tidak ada entri baru
+2025-01-31 16:00:01 : Tidak ada entri baru
+2025-01-31 16:30:01 : Tidak ada entri baru
+2025-02-03 11:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-02-03 11:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-02-03 11:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-02-03 11:30:01 : 
+2025-02-03 11:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-02-03 11:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-02-03 11:30:01 : app.py:972: SettingWithCopyWarning: 
+2025-02-03 11:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-02-03 11:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-02-03 11:30:01 : 
+2025-02-03 11:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-02-03 11:30:01 :   new_entries[['NO_KETENTUAN','TENTANG']] = new_entries['JUDUL'].apply(split_tentang).apply(pd.Series)
+2025-02-03 11:30:01 : app.py:445: SettingWithCopyWarning: 
+2025-02-03 11:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-02-03 11:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-02-03 11:30:01 : 
+2025-02-03 11:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-02-03 11:30:01 :   df['NOTIFICATION_STATUS'] = 'NOT SENT' #NOTE THIS COLUMN IS NOT RELEVANT TO THE SCRAPPING PROCESS. PLEASE SKIP THIS
+2025-02-03 11:30:01 : app.py:448: SettingWithCopyWarning: 
+2025-02-03 11:30:01 : A value is trying to be set on a copy of a slice from a DataFrame.
+2025-02-03 11:30:01 : Try using .loc[row_indexer,col_indexer] = value instead
+2025-02-03 11:30:01 : 
+2025-02-03 11:30:01 : See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+2025-02-03 11:30:01 :   df['ID_REGULASI'] = range(start_id,start_id+len(df))
+2025-02-03 11:30:01 : Gagal mengirim email: [Errno 101] Network is unreachable
+2025-02-03 11:30:01 : Gagal mengirim email: [Errno 101] Network is unreachable
+2025-02-03 11:30:01 : Gagal mengirim email: [Errno 101] Network is unreachable
+2025-02-03 12:00:01 : Tidak ada entri baru
+2025-02-03 12:30:01 : Tidak ada entri baru
+2025-02-03 14:30:01 : Tidak ada entri baru
+2025-02-03 15:00:01 : Tidak ada entri baru
+2025-02-03 15:30:01 : Tidak ada entri baru
+2025-02-03 16:00:02 : Tidak ada entri baru
+2025-02-03 16:30:01 : Tidak ada entri baru
+2025-02-03 17:00:01 : Tidak ada entri baru
+2025-02-03 17:00:01 : Email berhasil dikirim
+2025-02-03 17:00:01 : Email berhasil dikirim
+2025-02-03 17:00:01 : Email berhasil dikirim

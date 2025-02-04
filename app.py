@@ -937,14 +937,14 @@ Reyhan Dwi Prasetyo
 # Constants for working hours and Telegram notification setup
 current_time = datetime.now().time()
 start_work_hours = time(9,00)# Start of workday (9:00 AM)
-end_work_hours = time(18,10)  # End of workday (6:10 PM)
+end_work_hours = time(17,30)  # End of workday (6:10 PM)
 
 
 # Check if the current time is within the working hours
 if start_work_hours <= current_time <= end_work_hours:
     # Define the time window for sending reports (4:00 PM - 4:20 PM)
-    report_start_time = time(17,00)
-    report_end_time = time(17,10)
+    report_start_time = time(16,40)
+    report_end_time = time(17,20)
     
      # Scrape data from various regulatory bodies
     scrap_ojk = SCRAP_OJK(URL_OJK) #OJK Scrap
@@ -964,7 +964,7 @@ if start_work_hours <= current_time <= end_work_hours:
     if new_rancangan is not None:
         load_to_database_rancangan(new_rancangan)# Load new drafts into the database
         for email in RECIPIENTS: # Send notifications for new drafts
-            push_rancangan_notification(new_rancangan)
+            push_rancangan_notification(new_rancangan,email)
             
     # Process new regulations
     if new_entries is not None:
