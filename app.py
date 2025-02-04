@@ -26,7 +26,7 @@ HEADERS = {
 # Email Configuration
 SENDER_EMAIL = "prasetyoreyhan0509@gmail.com"
 RECIPIENTS = ["prasetyoreyhan0509@gmail.com",'Gratia.Trixe@cimbniaga.co.id','Nancy.Sianipar2@cimbniaga.co.id'] #Insert Recipients Email Here
-APP_PASSWORD = "mzgt qbqc pbxs hktu" #Insert Sender Gmail APP PASSWORD
+APP_PASSWORD = "XXXXX" #Insert Sender Gmail APP PASSWORD
 
 def SCRAP_ROJK(url):
     """
